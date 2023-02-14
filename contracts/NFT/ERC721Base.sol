@@ -19,6 +19,7 @@ import "@openzeppelin/contracts-upgradeable/token/ERC721/extensions/ERC721Burnab
 import "@openzeppelin/contracts-upgradeable/utils/StringsUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/utils/CountersUpgradeable.sol";
 
+/// @custom:security-contact security@africarare.io
 contract ERC721Base is
     ERC721Upgradeable,
     PausableUpgradeable,
